@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/troopai/.github/main/profile/troopai-logo-light.svg#gh-dark-mode-only">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/troopai/.github/main/profile/troopai-logo-dark.svg#gh-light-mode-only">
-    <img alt="TroopAI Logo" src="https://raw.githubusercontent.com/troopai/.github/main/profile/troopai-logo-dark.svg" width="50%">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/troopai/.github/main/profile/troopai-logo-dark.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/troopai/.github/main/profile/troopai-logo-light.svg#gh-light-mode-only">
+    <img alt="TroopAI Logo" src="https://raw.githubusercontent.com/troopai/.github/main/profile/troopai-logo-dark.svg" width="40%">
 </picture>
 
 # TroopAI
@@ -27,8 +27,6 @@ of specialized agents, moving in formation toward a single objective.
 
 TroopAI is the development kit for building exactly that:
 
-- **Code-first.** Agents, tools, and orchestration are plain Python —
-  no YAML-defined "personalities," no prompt-soup DSLs.
 - **Type-safe by construction.** Pydantic models at every boundary:
   agent inputs, tool schemas, inter-agent messages, run results.
   If it doesn't type-check, it doesn't ship.
